@@ -445,6 +445,7 @@ img {
 .about__image{
   position: relative;
   justify-self: center;
+  
   /* bottom: 10rem; */
 }
 
@@ -1018,6 +1019,10 @@ img {
     height: 130px;
   }
 
+  .about__image{
+    display: none;
+  }
+
   .about__perfil{
     position: absolute;
   }
@@ -1033,6 +1038,16 @@ img {
   .testimonials__card{
     width: 250px;
     padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 540px) {
+  .about__image {
+    display: none;
+  }
+  .about__shadow{
+    height: 10px;
+    bottom: 0%;
   }
 }
 
@@ -1056,6 +1071,10 @@ img {
     top: auto;
     bottom: 30px;
   }
+
+  /*.about__image{
+    display: none;
+  } */
 
   .about__data,.about__data .section__title{
     text-align: center;
